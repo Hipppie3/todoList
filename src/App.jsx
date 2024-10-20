@@ -1,9 +1,10 @@
 import React from 'react'
+import List from './List'
 
 function App() {
   return (
-    <div>
-      
+    <div className='container'>
+    <List />
     </div>
   )
 }
