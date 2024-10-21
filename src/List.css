@@ -1,0 +1,129 @@
+.list-container {
+ height: 100dvh;
+ display: flex;
+ flex-direction: column;
+;
+}
+
+
+
+.title-container {
+ flex: 1;
+ display: flex;
+ font-size: 30px;
+ justify-content: center;
+ align-items: center;
+}
+
+.form-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ flex: 4;
+ width: 100%;
+}
+
+.form-container form {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-top: 2rem;
+}
+
+.form-container label {
+ font-size: 30px;
+ padding-right: 1rem;
+}
+
+.form-container input {
+ height: 40px;
+ width: 100%;
+ max-width: 450px;
+ border-radius: 10px;
+ padding-left: 10px;
+}
+
+.form-container button {
+ height: 40px;
+ width: 60px;
+ border-radius: 10px;
+ margin-left: 2px;
+ color: white;
+ background-color: lightskyblue;
+}
+
+.form-container button:hover {
+ background-color: red;
+}
+
+.list {
+ display: flex;
+ flex-direction: column;
+ margin-top: 30px;
+ width: 30%;
+ max-width: 455px;
+ height: 500px;
+ border-radius: 10px;
+ overflow-y: auto;
+ background: linear-gradient(to bottom, rgb(143, 143, 211), white);
+ border: 5px outset black
+}
+
+.list h2 {
+ display: flex;
+ justify-content: center;
+ padding-top: 1rem;
+}
+
+.list ul li{
+ list-style-type: none;
+ padding-top: 10px;
+}
+
+.list-and-button {
+ display: flex;
+ font-size: 25px;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0 10px;
+}
+
+
+
+/* Media query for iPhone Plus (width between 376px and 414px) */
+@media (max-width: 414px) {
+
+
+
+ .list-container {
+  height: 100dvh;
+  display: flex;
+ }
+
+ .title-container {
+  font-size: 15px;
+  flex:1;
+ }
+
+ .form-container{
+  flex: 6;
+ }
+ .form-container input {
+  width: 100%;
+  max-width: 350px;
+ }
+
+ .list {
+  width: 80%;
+  margin-top: 20px;
+
+ }
+
+ .list-and-button {
+  font-size: 20px;
+ }
+
+ .form-container button {
+  width: 55px;
+ }
+}
