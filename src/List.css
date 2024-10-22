@@ -2,24 +2,15 @@
  height: 100dvh;
  display: flex;
  flex-direction: column;
-;
-}
-
-
-
-.title-container {
- flex: 1;
- display: flex;
- font-size: 30px;
  justify-content: center;
- align-items: center;
+ padding-bottom: 15rem;
 }
+
 
 .form-container{
  display: flex;
  flex-direction: column;
  align-items: center;
- flex: 4;
  width: 100%;
 }
 
@@ -36,16 +27,16 @@
 }
 
 .form-container input {
- height: 40px;
- width: 100%;
- max-width: 450px;
+ height: 50px;
+ width: 400px;
  border-radius: 10px;
  padding-left: 10px;
 }
 
 .form-container button {
- height: 40px;
- width: 60px;
+ height: 50px;
+ width: 100px;
+ min-width: 50px;
  border-radius: 10px;
  margin-left: 2px;
  color: white;
@@ -60,13 +51,14 @@
  display: flex;
  flex-direction: column;
  margin-top: 30px;
- width: 30%;
- max-width: 455px;
- height: 500px;
+ width: 90%;
+ max-width: 655px;
+ min-width: 350px;
+ min-height: 500px;
  border-radius: 10px;
  overflow-y: auto;
- background: linear-gradient(to bottom, rgb(143, 143, 211), white);
- border: 5px outset black
+ background: linear-gradient(to bottom, rgb(251, 253, 226), rgb(244, 243, 238));
+ border: 2px outset rgb(216, 251, 101)
 }
 
 .list h2 {
@@ -90,8 +82,8 @@
 
 
 
-/* Media query for iPhone Plus (width between 376px and 414px) */
-@media (max-width: 414px) {
+
+@media (max-width: 430px) and (max-height: 932px) {
 
 
 

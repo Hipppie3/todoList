@@ -37,8 +37,6 @@ let title = "daniel's do list"
 
     <div className='form-container'>
       <form onSubmit={handleSubmit}className='list-input'>
-      {/* Label for the input filed */}
-      <label>Tasks: </label>
       {/* Input field for user to type a task */}
       <input
       type='text'
@@ -52,7 +50,7 @@ let title = "daniel's do list"
 
      {/* Render the list of tasks */}
     <div className='list'>
-      <h2> Task List </h2>
+      <h2> Daniel's Task List </h2>
 
       {/* Map over the task array and render each task as a list item */}
       <ul>
@@ -65,9 +63,6 @@ let title = "daniel's do list"
 
        ))}
       </ul>
-    </div>
-        <div className='title-container'>
-      <h1>{title.toUpperCase()}</h1>
     </div>
 
     </div>
